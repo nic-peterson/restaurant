@@ -12,14 +12,13 @@ html {
 
 @font-face {
   font-family: barlow-regular;
-  src: url('./assets/Barlow-Regular.ttf');
+  src: url("./assets/Barlow-Regular.ttf");
 }
 
 @font-face {
   font-family: bebasneue-regular;
-  src: url('./assets/BebasNeue-Regular.ttf');
+  src: url("./assets/BebasNeue-Regular.ttf");
 }
-
 
 #content {
   background: linear-gradient(
@@ -28,36 +27,60 @@ html {
       rgba(255, 255, 255, 0.8)
     ),
     url("./assets/MainBackground.png");
-    height: 100%;
+  height: 100%;
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 #nav {
-    display: flex;
-    column-gap: 3rem;
-    cursor: pointer;
-    margin: 2rem 0;
-    font-family: bebasneue-regular, sans-serif;
-    font-size: 2.5rem;
-    color: #9F7640;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  column-gap: 3rem;
+  cursor: pointer;
+  margin: 2rem 0;
+  font-family: bebasneue-regular, sans-serif;
+  font-size: 2.5rem;
+  color: #9f7640;
+  align-items: center;
+  justify-content: center;
 }
 
 #logo {
-    background: url("./assets/causwells.png");
-    width: 392px;
-    height: 153px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
+  background: url("./assets/causwells.png");
+  width: 392px;
+  height: 153px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: barlow-regular, sans-serif;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.sub-title {
+  font-size: 3rem;
+}
+
+.contact-info {
+  width: 100%;
+}
+
+.meal-title {
+  font-weight: bold;
 }
