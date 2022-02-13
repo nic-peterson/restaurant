@@ -10,6 +10,17 @@ html {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: barlow-regular;
+  src: url('./assets/Barlow-Regular.ttf');
+}
+
+@font-face {
+  font-family: bebasneue-regular;
+  src: url('./assets/BebasNeue-Regular.ttf');
+}
+
+
 #content {
   background: linear-gradient(
       0deg,
@@ -22,4 +33,31 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#nav {
+    display: flex;
+    column-gap: 3rem;
+    cursor: pointer;
+    margin: 2rem 0;
+    font-family: bebasneue-regular, sans-serif;
+    font-size: 2.5rem;
+    color: #9F7640;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    background: url("./assets/causwells.png");
+    width: 392px;
+    height: 153px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
 }
