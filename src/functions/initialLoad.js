@@ -1,4 +1,4 @@
-import about from "./about";
+import about from "../pages/about";
 import nav from "./nav";
 
 const initialLoad = function () {
