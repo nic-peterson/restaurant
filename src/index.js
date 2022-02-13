@@ -1,8 +1,12 @@
-function component() {
-    const element = document.createElement('div');
-    element.innerHTML = "Hello World";
-    return element;
-}
+import about from "./about";
+import menu from './menu';
+import contact from './contact'
+import nav from './nav'
 
-const content = document.getElementById("content");
-content.appendChild(component());
+const content = document.querySelector("#content");
+const navBar = nav;
+content.appendChild(navBar());
+
+about();
+menu();
+contact();
