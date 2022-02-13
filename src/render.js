@@ -6,4 +6,4 @@ const render = function () {
   }
 };
 
-export default render();
+export default render;

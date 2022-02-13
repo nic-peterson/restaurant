@@ -1,10 +1,11 @@
 import about from "./about";
 import nav from "./nav";
 
-const intialLoad = function () {
+const initialLoad = function () {
   const content = document.querySelector("#content");
-  const navBar = nav;
-  content.appendChild(navBar());
+  const navBar = nav();
+  content.appendChild(navBar);
+  about();
 };
 
-export default intialLoad;
+export default initialLoad;

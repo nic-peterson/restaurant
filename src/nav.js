@@ -1,7 +1,6 @@
 import { capitalizeFirstLetter } from "./helperFunctions";
 
 const nav = function () {
-  console.log("nav");
   const optionsArr = ['about', 'menu', 'contact'];
 
   const nav = document.createElement("div");
