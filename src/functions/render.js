@@ -1,8 +1,8 @@
 const render = function () {
   const content = document.querySelector("#content");
   content.style = "";
-  while (content.children.length > 2) {
-    content.children[2].remove();
+  while (content.children.length > 1) {
+    content.children[1].remove();
   }
 };
 

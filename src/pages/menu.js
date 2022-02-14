@@ -5,11 +5,9 @@ const menu = function () {
   const content = document.querySelector("#content");
   const menu = document.createElement("div");
   menu.setAttribute("class", "menu");
-  const menuTitle = document.createElement("div");
-  menuTitle.textContent = "Menu";
-  menu.appendChild(menuTitle);
 
   const menuContainer = document.createElement("div");
+  menuContainer.setAttribute("class", "menu-container");
 
   const chicken = {
     name: "CRISPY CHICKEN $15",
@@ -20,7 +18,7 @@ const menu = function () {
   const americana = {
     name: "AMERICANA BURGER $20",
     img: "./assets/americana.jpeg",
-    desc: "american cheese, causwells sauce, lettuce, pickle, onion",
+    desc: "cheese, sauce, lettuce, pickle, onion",
     id: "menu-americana",
   };
   const salad = {

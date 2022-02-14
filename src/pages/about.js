@@ -32,7 +32,6 @@ const about = function () {
   const owner2Card = createCard(owner2);
   
   about.setAttribute("class", "about");
-  about.textContent = "About";
   about.appendChild(owner1Card);
   about.appendChild(owner2Card);
 

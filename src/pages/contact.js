@@ -5,9 +5,9 @@ const contact = function () {
 
   const contact = document.createElement("div");
   contact.setAttribute("class", "contact");
-  contact.innerHTML = `<div class="page-title">Contact</div>
+  contact.innerHTML = `
   <div class="contact-section">
-    <div class="section-title">Causwells</div>
+    <div class="section-title" id="restaurant-name">Causwells</div>
     <div class="contact-info">
         <p id="address">2346 Chestnut Street, San Francisco, CA 94123
         </p>
