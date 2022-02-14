@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
+  mode: 'none',
   entry: "./src/index.js",
   devtool: "inline-source-map",
   devServer: {
@@ -11,6 +12,7 @@ module.exports = {
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
+    clean: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
