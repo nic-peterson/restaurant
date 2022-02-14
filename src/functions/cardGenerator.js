@@ -4,9 +4,9 @@ const createCard = function(obj) {
     card.setAttribute("class", "card");
     card.setAttribute("id", id);
 
-    card.innerHTML=`<div class="name">${name}</div>
+    card.innerHTML=`<div class="card-name">${name}</div>
     <img src="${img} class="card-img">
-    <div class="desc">${desc}</div>`;
+    <div class="card-desc">${desc}</div>`;
 
     return card;
 }

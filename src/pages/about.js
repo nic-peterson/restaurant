@@ -13,7 +13,7 @@ const about = function () {
   const owner1 = {
     name: "Chef Adam Rosenblum",
     img: adamPic,
-    desc: `A native of Maryland, Chef Adam opened Causwells in 2014 and is the owner of Alba Ray’s, a creole brunch spot in San Francisco’s Mission neighborhood.`,
+    desc: `Chef Adam opened Causwells in 2014`,
     id: "owner-adam"
   }
   
@@ -25,7 +25,7 @@ const about = function () {
   const owner2 = {
     name: "Tom Patella",
     img: tomPic,
-    desc: `A former art teacher from Santa Clarita, California, owner Tom Patella has always held a passion for restaurants.`,
+    desc: `Tom is a former art teacher`,
     id: "owner-tom"
   }
 
