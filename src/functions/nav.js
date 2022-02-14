@@ -1,4 +1,5 @@
 import { capitalizeFirstLetter } from "./helperFunctions";
+import "../style.css";
 
 const nav = function () {
   const optionsArr = ['about', 'menu', 'contact'];

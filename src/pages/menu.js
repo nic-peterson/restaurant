@@ -1,4 +1,5 @@
 import createCard from "../functions/cardGenerator";
+import "../style.css";
 
 const menu = function () {
   const content = document.querySelector("#content");

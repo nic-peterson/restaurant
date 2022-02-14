@@ -3,6 +3,7 @@ import menu from "./pages/menu";
 import contact from "./pages/contact";
 import intialLoad from "./functions/initialLoad";
 import render from "./functions/render";
+import "./style.css";
 
 intialLoad();
 

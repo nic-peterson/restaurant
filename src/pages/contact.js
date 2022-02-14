@@ -1,3 +1,5 @@
+import "../style.css";
+
 const contact = function () {
   const content = document.querySelector("#content");
 
