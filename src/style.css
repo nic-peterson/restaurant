@@ -52,6 +52,7 @@ html {
   justify-content: center;
 }
 
+/*
 #logo {
   background: url("./assets/causwells.png");
   width: 392px;
@@ -61,6 +62,7 @@ html {
   padding: 0;
   margin-bottom: 10px;
 }
+*/
 
 .title {
   display: flex;
@@ -142,6 +144,7 @@ img {
   column-gap: 1rem;
 }
 
-.about .card {
-
+.about img {
+  height: 250px;
+  width: 200px;
 }
