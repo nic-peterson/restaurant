@@ -52,18 +52,6 @@ html {
   justify-content: center;
 }
 
-/*
-#logo {
-  background: url("./assets/causwells.png");
-  width: 392px;
-  height: 153px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0;
-  margin-bottom: 10px;
-}
-*/
-
 .title {
   display: flex;
   justify-content: center;

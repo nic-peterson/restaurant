@@ -20,12 +20,6 @@ const createCard = function(obj) {
     card.appendChild(imgDiv);
     card.appendChild(descDiv)
 
-    /*
-    card.innerHTML=`<div class="card-name">${name}</div>
-    <img loading="lazy" src="${img}" class="card-img">
-    <div class="card-desc">${desc}</div>`;
-    */
-
     return card;
 }
 
